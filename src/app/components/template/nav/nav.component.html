@@ -1,0 +1,20 @@
+<mat-drawer-container class="container" color="primary">
+    <mat-drawer mode="side" opened>
+        <mat-nav-list>
+            <a routerLink="" mat-list-item>
+                <i class="material-icons">home</i>
+                Home
+            </a>
+            <a routerLink="/resultados" mat-list-item>
+                <i class="material-icons">check_circle</i>
+                Resultados
+            </a>
+        </mat-nav-list>
+    </mat-drawer>
+
+    <mat-drawer-content>
+        <router-outlet> </router-outlet>
+    </mat-drawer-content>
+
+  </mat-drawer-container>
+  
